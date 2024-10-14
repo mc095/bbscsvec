@@ -1,0 +1,43 @@
+{
+    "person": {
+        "role": "BBSC SVEC"
+    },
+    "newsletter": {
+        "title": "Subscribe to BBSC 's Newsletter",
+        "description": "Get updates from the club's recent actions today",
+        "button": "Sign up"
+    },
+    "home": {
+        "label": "Home",
+        "title": "{name}",
+        "description": "",
+        "headline": "BBSC x SVEC",
+        "subline": ""
+    },
+    "about": {
+        "label": "About",
+        "title": "About Us"
+    },
+    "blog": {
+        "label": "Blog",
+        "title": "Our technical Blogs",
+        "description": "Read what BBSC has been up to recently"
+    },
+    "work": {
+        "label": "Work",
+        "title": "BBSC Events",
+        "description": "Design and dev projects by BBSC"
+    },
+    "gallery": {
+        "label": "Gallery",
+        "title": "Our Incredible Moments",
+        "description": "A photo collection by BBSC"
+    },
+    "projectCard": {
+        "label": "Our Work"
+    }, 
+    "studentProfiles": {
+        "title": "The Team",
+        "description": "Meet the talented students in our community"
+    }
+}

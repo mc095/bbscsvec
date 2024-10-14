@@ -1,0 +1,35 @@
+/* StudentProfileCard.module.css */
+.student-profile-card {
+  display: flex; /* For side-by-side display */
+  align-items: center;
+  padding: var(--spacing-l);
+  gap: var(--spacing-m);
+  border-radius: var(--border-radius-l);
+  background-color: var(--color-neutral-weak);
+  border: 2px solid var(--color-neutral-strong);
+  border-style: solid 1px;
+  width: 30%; /* Adjust width for side-by-side display */
+  box-shadow: var(--shadow-l);
+  transition: transform 0.3s ease;
+
+}
+
+.customRoleText {
+  font-size: 1.0 rem; // Reduce font size (adjust as needed)
+  color: #888; // Optional: set a softer color for the role
+  margin-top: -10px; // Space between name and role
+  font-style: italic; // Optional: italic for differentiation
+}
+
+
+
+.student-profile-card:hover {
+  transform: scale(1.05);
+}
+
+.student-profile-card__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+}
+

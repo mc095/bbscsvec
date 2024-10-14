@@ -1,0 +1,22 @@
+.hover {
+    transition: var(--transition-property) var(--transition-duration-micro-medium) var(--transition-timing-function);
+
+    &:hover {
+        transform: translateX(var(--static-space-4));
+    }
+}
+
+
+@media (--s) {
+    .textAlign {
+        text-align: center;
+    }
+
+    .section {
+        margin-bottom: 160px; /* Increase the margin only for small screens */
+    }
+
+    .blockAlign {
+        align-self: center;
+    }
+}

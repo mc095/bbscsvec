@@ -1,0 +1,12 @@
+/* StudentProfiles.module.css */
+.sectionTitle {
+  font-size: 2.0rem; /* Adjust the size as needed */
+  margin-bottom: 1rem; /* Adjust the margin if necessary */
+  background: linear-gradient(90deg, #ffffff, #d9e4f5); /* Light gradient for a shiny effect */
+  -webkit-background-clip: text; /* Vendor prefix for Chrome and Safari */
+  background-clip: text; /* Standard property */
+  -webkit-text-fill-color: transparent; /* Fill text with transparent to show gradient */
+  text-shadow: 
+    1px 1px 5px rgba(255, 255, 255, 0.5), /* Light white shadow */
+    -1px -1px 5px rgba(0, 0, 0, 0.3); /* Soft dark shadow for contrast */
+}
