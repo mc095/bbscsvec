@@ -18,6 +18,7 @@ import praskimg from "@/app/[locale]/about/team/praskum.jpg";
 import madhanimg from "@/app/[locale]/about/team/madhan.jpg"; // Adjust imports based on your file structure
 import fathimaimg from "@/app/[locale]/about/team/fathima.jpg";
 import ganeshimg from "@/app/[locale]/about/team/ganesh.jpg";
+import hodimg from "@/app/[locale]/about/team/Hod.jpg";
 
 const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "localhost:3000";
 
@@ -30,6 +31,7 @@ export default function StudentProfiles({
   const t = useTranslations();
 
   const students = [
+    
     {
       name: "Prasanna Kumar",
       role: "Maverick",
@@ -135,9 +137,19 @@ export default function StudentProfiles({
       linkedin: "http://linkedin.com/in/jaya-kanth-vemuluri-260501271",
       avatarUrl: jayakimg.src,
     },
+    {
+      name: "Dr. D. Jaya Kumari",
+      role: "Faculty Advisor",
+  
+      avatarUrl: hodimg.src, // Directly use the imported image
+    },
   ];
 
   const profileSections = [
+    {
+      title: "Faculty Advisor",
+      profiles: [students[15]],
+    },
     {
       title: "Lead & Co-Lead",
       profiles: [students[0], students[1]],

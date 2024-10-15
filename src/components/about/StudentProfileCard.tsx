@@ -1,5 +1,3 @@
-// StudentProfileCard.tsx
-
 "use client";
 
 import React from "react";
@@ -18,8 +16,8 @@ const primary = Inter({
 interface StudentProfileProps {
   name: string;
   role?: string;
-  github: string;
-  linkedin: string;
+  github?: string;
+  linkedin?: string;
   avatarUrl?: string | StaticImageData; // Keep avatarUrl as optional
 }
 
@@ -52,24 +50,31 @@ const StudentProfileCard: React.FC<StudentProfileProps> = ({
         >
           {role}
         </Text>
-        <Flex gap="m">
-          <IconButton
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            icon="github"
-            variant="primary"
-            aria-label="GitHub"
-          />
-          <IconButton
-            href={linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            icon="linkedin"
-            variant="primary"
-            aria-label="LinkedIn"
-          />
-        </Flex>
+        {/* Conditionally render GitHub and LinkedIn only if URLs are provided */}
+        {(github || linkedin) && (
+          <Flex gap="m">
+            {github && (
+              <IconButton
+                href={github}
+                target="_blank"
+                rel="noopener noreferrer"
+                icon="github"
+                variant="primary"
+                aria-label="GitHub"
+              />
+            )}
+            {linkedin && (
+              <IconButton
+                href={linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                icon="linkedin"
+                variant="primary"
+                aria-label="LinkedIn"
+              />
+            )}
+          </Flex>
+        )}
       </Flex>
     </Flex>
   );
