@@ -5,14 +5,19 @@ import { getTranslations } from 'next-intl/server';
 export const runtime = 'edge';
 
 export async function GET(request: Request) {
-    let url = new URL(request.url)
-    let title = url.searchParams.get('title') || 'BBSC'
+    const url = new URL(request.url);
+    const title = url.searchParams.get('title') || 'BBSC';
+    const locale = url.searchParams.get('locale') || 'en'; // Default to 'en' if not provided
+
+    // Set the locale for the request
+
+
     const font = fetch(
         new URL('../../../public/fonts/Inter.ttf', import.meta.url)
     ).then((res) => res.arrayBuffer());
     const fontData = await font;
 
-    const t = await getTranslations();
+    const t = await getTranslations(locale);
     const { person } = renderContent(t);
 
     return new ImageResponse(
@@ -97,7 +102,7 @@ export async function GET(request: Request) {
                     data: fontData,
                     style: 'normal',
                 },
-              ],
+            ],
         }
     )
 }

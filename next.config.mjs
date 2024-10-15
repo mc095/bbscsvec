@@ -10,7 +10,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
+    pageExtensions: ['ts', 'tsx', 'md', 'mdx', 'en'],
     images: {
         domains: ['via.placeholder.com','img.amiami.com'], // Add this line
       },

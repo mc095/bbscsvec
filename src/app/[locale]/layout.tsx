@@ -12,7 +12,6 @@ import { Source_Code_Pro } from 'next/font/google';
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
-
 import { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { renderContent } from "@/app/resources";

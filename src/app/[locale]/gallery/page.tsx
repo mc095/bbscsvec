@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export async function generateMetadata(
 	{params: {locale}}: { params: { locale: string }}
 ) {
-
+	
 	const t = await getTranslations();
 	const { gallery } = renderContent(t);
 

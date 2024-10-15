@@ -33,6 +33,7 @@ export async function generateStaticParams() {
 }
 
 export function generateMetadata({ params: { slug, locale } }: WorkParams) {
+	
 	let post = getPosts(['src', 'app', '[locale]', 'work', 'projects', locale]).find((post) => post.slug === slug)
 	
 	if (!post) {
@@ -78,6 +79,7 @@ export function generateMetadata({ params: { slug, locale } }: WorkParams) {
 }
 
 export default function Project({ params }: WorkParams) {
+	
 	unstable_setRequestLocale(params.locale);
 	let post = getPosts(['src', 'app', '[locale]', 'work', 'projects', params.locale]).find((post) => post.slug === params.slug)
 

@@ -1,6 +1,6 @@
 import { Flex, Heading } from "@/once-ui/components";
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import StudentProfileCard from "@/components/about/StudentProfileCard";
 import styles from "@/app/[locale]/about/about.module.scss";
 import azmatimg from "@/app/[locale]/about/team/azmat.jpg";
@@ -26,6 +26,7 @@ export default function StudentProfiles({
 }: {
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations();
 
   const students = [

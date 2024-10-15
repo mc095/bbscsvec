@@ -131,7 +131,6 @@ const components = {
     h6: createHeading(6) as any,
     img: createImage as any,
     a: CustomLink as any,
-    Table,
 };
 
 type CustomMDXProps = MDXRemoteProps & {

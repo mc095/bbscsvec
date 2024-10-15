@@ -34,6 +34,7 @@ export async function generateStaticParams() {
 }
 
 export function generateMetadata({ params: { slug, locale } }: BlogParams) {
+	
 	let post = getPosts(['src', 'app', '[locale]', 'blog', 'posts', locale]).find((post) => post.slug === slug)
 
 	if (!post) {

@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl';
 export async function generateMetadata(
 	{params: {locale}}: { params: { locale: string }}
 ) {
-
+	
 	const t = await getTranslations();
 	const { blog } = renderContent(t);
 
@@ -44,7 +44,6 @@ export default function Blog(
 	{ params: {locale}}: { params: { locale: string }}
 ) {
 	unstable_setRequestLocale(locale);
-
 	const t = useTranslations();
 	const { person, blog, newsletter } = renderContent(t);
     return (
