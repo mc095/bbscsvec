@@ -1,6 +1,6 @@
 /* StudentProfileCard.module.css */
 .student-profile-card {
-  display: flex; /* For side-by-side display */
+  display: flex; 
   align-items: center;
   padding: var(--spacing-l);
   gap: var(--spacing-m);
@@ -8,17 +8,17 @@
   background-color: var(--color-neutral-weak);
   border: 2px solid var(--color-neutral-strong);
   border-style: solid 1px;
-  width: 30%; /* Adjust width for side-by-side display */
+  width: 30%; 
   box-shadow: var(--shadow-l);
   transition: transform 0.3s ease;
 
 }
 
 .customRoleText {
-  font-size: 1.0 rem; // Reduce font size (adjust as needed)
-  color: #888; // Optional: set a softer color for the role
-  margin-top: -4 px; // Space between name and role
-  font-style: italic; // Optional: italic for differentiation
+  font-size: 1.0 rem; 
+  color: #888; 
+  margin-top: -4 px;
+  font-style: italic; 
 }
 
 
