@@ -25,7 +25,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'http://www.linkedin.com/in/blackbox-student-community-028a9433',
+        link: 'https://www.linkedin.com/company/black-box-student-community-svec/',
     },
    
     {
