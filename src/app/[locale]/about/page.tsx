@@ -155,7 +155,7 @@ export default function StudentProfiles({
       avatarUrl: mohanimg.src,
     },
     {
-      name: "Jaykanth",
+      name: "Jayakanth",
       role: "Co-Lead",
       github: "https://github.com/Vemulurijayakanth",
       linkedin: "http://linkedin.com/in/jaya-kanth-vemuluri-260501271",
