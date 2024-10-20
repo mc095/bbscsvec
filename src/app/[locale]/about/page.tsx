@@ -134,7 +134,7 @@ export default function StudentProfiles({
       avatarUrl: madhurimg.src,
     },
     {
-      name: "Azmath",
+      name: "Azmat",
       role: "Lead",
       github: "https://github.com/Azmat1291",
       linkedin: "https://www.linkedin.com/in/mohammad-azmatulla-b6b67b2b5/",
