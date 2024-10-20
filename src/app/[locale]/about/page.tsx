@@ -19,6 +19,30 @@ import madhanimg from "@/app/[locale]/about/team/madhan.jpg"; // Adjust imports 
 import fathimaimg from "@/app/[locale]/about/team/fathima.jpg";
 import ganeshimg from "@/app/[locale]/about/team/ganesh.jpg";
 import hodimg from "@/app/[locale]/about/team/Hod.jpg";
+import tanyaimg from "@/app/[locale]/about/team/tanya.jpg";
+import umaimg from "@/app/[locale]/about/team/sahithi.jpg";
+import syamalaimg from "@/app/[locale]/about/team/shyamalamani.jpg";
+import pallavisatyaimg from "@/app/[locale]/about/team/pallavisatya.jpg";
+import ramyasreeimg from "@/app/[locale]/about/team/ramyasree.jpg";
+import krishnasai from "@/app/[locale]/about/team/krishnasai.jpg";
+import prasadimg from "@/app/[locale]/about/team/varaprasad.jpg";
+import hariimg from "@/app/[locale]/about/team/haricharan.jpg";
+import saiimg from "@/app/[locale]/about/team/sai.jpg";
+import anjaniimg from "@/app/[locale]/about/team/anjani.jpg";
+import pratyuimg from "@/app/[locale]/about/team/pratyusha.jpg";
+import bhargavimg from "@/app/[locale]/about/team/bhargav.jpg";
+import rishiimg from "@/app/[locale]/about/team/rishi.jpg";
+import mahatiimg from "@/app/[locale]/about/team/mahathi.jpg";
+import lohithaimg from "@/app/[locale]/about/team/lohitha.jpg";
+import durgaimg from "@/app/[locale]/about/team/durgadevi.jpg";
+import varshaimg from "@/app/[locale]/about/team/varhsa.jpg";
+import bhargaviimg from "@/app/[locale]/about/team/bhargavi.jpg";
+import geethikaimg from "@/app/[locale]/about/team/geethika.jpg";
+import shanmukimg from "@/app/[locale]/about/team/shanmuk.jpg";
+import maniimg from "@/app/[locale]/about/team/mani.jpg";
+import pavanaimg from "@/app/[locale]/about/team/pavana.jpg";
+import ganeshcnt from "@/app/[locale]/about/team/ganeshcontent.jpg";
+
 
 const baseURL = process.env.NEXT_PUBLIC_BASE_URL || "localhost:3000";
 
@@ -143,6 +167,168 @@ export default function StudentProfiles({
   
       avatarUrl: hodimg.src, // Directly use the imported image
     },
+    {
+      name: "Tanya",
+      role: "Co-Lead",
+      github: "https://github.com/TanyaCoder-27",
+      linkedin: "https://www.linkedin.com/in/andra-tulasi-lakshmi-tanya-6675b7277/",
+      avatarUrl: tanyaimg.src, // Directly use the imported image
+    },
+    {
+      name: "Sahithi",
+      role: "Subordinate",
+      github: "https://github.com/Adabala-UmaSahithi",
+      linkedin: "https://www.linkedin.com/in/uma-sahithi-adabala-0b0a07279/",
+      avatarUrl: umaimg.src, 
+    },
+    {
+      name: "Syamalamani",
+      role: "Subordinate",
+      github: "https://github.com/Syamalamanipamarthi",
+      linkedin: "https://www.linkedin.com/in/syamalamani-pamarthi-7861802ba",
+      avatarUrl: syamalaimg.src, 
+    },
+    {
+      name: "Pallavi Satya",
+      role: "Co-Lead",
+      github: "https://github.com/PallaviSatya",
+      linkedin: "https://www.linkedin.com/in/pallavi-satya-palli-99401228b",
+      avatarUrl: pallavisatyaimg.src, 
+    },
+    {
+      name: "Ramya Sree",
+      role: "Subordinate",
+      github: "https://github.com/ramyasreelanka5",
+      linkedin: "https://www.linkedin.com/in/ramya-sree-lanka/",
+      avatarUrl: ramyasreeimg.src, 
+    },
+    {
+      name: "Krishna Sai",
+      role: "Subordinate",
+      github: "https://github.com/VelagalaSatyaSivaNagaKrishnaSai",
+      linkedin: "https://www.linkedin.com/in/satya-siva-naga-krishna-sai-velagala",
+      avatarUrl: krishnasai.src, 
+    },
+    {
+      name: "Vara Prasad",
+      role: "Subordinate",
+      github: "https://github.com/vara42",
+      linkedin: "https://www.linkedin.com/in/ganapati-vara-prasad-polavarapu-76475b304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: prasadimg.src, 
+    },
+    {
+      name: "Sai",
+      role: "Subordinate",
+      github: "https://github.com/saipatsa",
+      linkedin: "https://www.linkedin.com/in/yegna-sai-a61a3728b/",
+      avatarUrl: saiimg.src, 
+    },
+    {
+      name: "Hari Charan",
+      role: "Subordinate",
+      github: "https://github.com/sharicharan",
+      linkedin: "https://www.linkedin.com/in/hari-s-954151297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: hariimg.src, 
+    },
+    {
+      name: "Anjani",
+      role: "Co-Lead",
+      github: "https://github.com/Anjani-Koteswari",
+      linkedin: "https://www.linkedin.com/in/anjani-naga-koteswari-karri-49a6b428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: anjaniimg.src, 
+    },
+    {
+      name: "Pratyusha",
+      role: "Subordinate",
+      github: "https://github.com/PrathyushaMatta",
+      linkedin: "https://www.linkedin.com/in/prathyusha-matta-9926ba28a",
+      avatarUrl: pratyuimg.src, 
+    },
+    {
+      name: "Bhargav",
+      role: "Subordinate",
+      github: "https://github.com/BhargavChowdaryBala",
+      linkedin: "https://www.linkedin.com/in/bhargav-chowdary-a866762ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: bhargavimg.src, 
+    },
+    {
+      name: "Rishi",
+      role: "Co-Lead",
+      github: "https://github.com/rishitatavarthi",
+      linkedin: "https://www.linkedin.com/in/tatavarthi-rishi-varun-819516294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      avatarUrl: rishiimg.src, 
+    },
+    {
+      name: "Mahathi",
+      role: "Subordinate",
+      github: "https://github.com/mahathisamudrala",
+      linkedin: "https://www.linkedin.com/in/mahathi-samudrala-9861202b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: mahatiimg.src, 
+    },
+    {
+      name: "Lohitha",
+      role: "Subordinate",
+      github: "https://github.com/Lohitha-patala",
+      linkedin: "https://www.linkedin.com/in/lohitha-sai-sri-a35b62331",
+      avatarUrl: lohithaimg.src, 
+    },
+    {
+      name: "Durga Devi",
+      role: "Subordinate",
+      github: "https://github.com/DurgaDevi1811",
+      linkedin: "https://www.linkedin.com/in/durga-devi-vanguri-187594290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: durgaimg.src, 
+    },
+    {
+      name: "Varsha",
+      role: "Subordinate",
+      github: "https://github.com/varshavelagala",
+      linkedin: "https://in.linkedin.com/in/varsha-sri-2ab296334",
+      avatarUrl: varshaimg.src, 
+    },
+    {
+      name: "Bhargavi",
+      role: "Subordinate",
+      github: "https://github.com/bhargaviananthbandaru",
+      linkedin: "https://www.linkedin.com/in/bhargavi-bandaru-9b4253242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      avatarUrl: bhargaviimg.src, 
+    },
+    {
+      name: "Geethika",
+      role: "Subordinate",
+      github: "https://github.com/SRI42J",
+      linkedin: "https://www.linkedin.com/in/geethikaedupuganti/",
+      avatarUrl: geethikaimg.src, 
+    },
+    {
+      name: "Shanmukh",
+      role: "Subordinate",
+      github: "https://github.com/m-shannu",
+      linkedin: "https://www.linkedin.com/in/shanmukh-madicherla-74287b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: shanmukimg.src, 
+    },
+    {
+      name: "Mani Chandu",
+      role: "Subordinate",
+      github: "https://github.com/Mani-9828",
+      linkedin: "https://www.linkedin.com/in/mani-manichandu-957374325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: maniimg.src, 
+    },
+    {
+      name: "Pavana",
+      role: "Content Writer",
+      github: "https://github.com/pavana-namburi",
+      linkedin: "https://www.linkedin.com/in/pavana-namburi",
+      avatarUrl: pavanaimg.src, 
+    },
+    {
+      name: "Ganesh",
+      role: "Content Writer",
+      github: "https://github.com/supersaga1",
+      linkedin: "https://www.linkedin.com/in/sai-ganesh-pampana-300bb72b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      avatarUrl: ganeshcnt.src, 
+    },
+    
   ];
 
   const profileSections = [
@@ -164,31 +350,35 @@ export default function StudentProfiles({
     },
     {
       title: "Machine Learning and Deep Learning",
-      profiles: [students[5]],
+      profiles: [students[5], students[16], students[17], students[18]],
     },
     {
       title: "Generative AI and Prompt Engineering",
-      profiles: [students[6]],
+      profiles: [students[6], students[19], students[20], students[21]],
     },
     {
       title: "Web and App Development",
-      profiles: [students[7], students[8]],
+      profiles: [students[7], students[8], students[22], students[23], students[24]],
     },
     {
       title: "Cloud Computing",
-      profiles: [students[9]],
+      profiles: [students[9], students[25], students[26], students[27]],
     },
     {
       title: "Event Management",
-      profiles: [students[10]],
+      profiles: [students[10], students[28], students[29], students[30], students[31]],
     },
     {
       title: "Public Relations",
-      profiles: [students[11], students[12]],
+      profiles: [students[11], students[12], students[32], students[33]],
     },
     {
       title: "Creative Design & Social Media Management",
-      profiles: [students[13], students[14]],
+      profiles: [students[13], students[14], students[34], students[35], students[36]],
+    },
+    {
+      title: "Content Writing",
+      profiles: [students[37], students[38]],
     },
   ];
 
