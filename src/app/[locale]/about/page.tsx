@@ -365,42 +365,46 @@ export default function StudentProfiles({
       profiles: [
         students[7],
         students[8],
+        students[21],
         students[22],
         students[23],
-        students[24],
+        
       ],
     },
     {
       title: "Cloud Computing",
-      profiles: [students[9], students[25], students[26], students[27]],
+      profiles: [students[9], students[24], students[25], students[26] ],
     },
     {
       title: "Event Management",
       profiles: [
         students[10],
+        students[27],
         students[28],
         students[29],
         students[30],
-        students[31],
+        
       ],
     },
     {
       title: "Public Relations",
-      profiles: [students[11], students[12], students[32], students[33]],
+      profiles: [students[11], students[12], students[32], students[31]],
     },
     {
       title: "Creative Design & Social Media Management",
       profiles: [
         students[13],
         students[14],
+        students[33],
         students[34],
         students[35],
-        students[36],
+        
+        
       ],
     },
     {
       title: "Content Writing",
-      profiles: [students[37], students[38]],
+      profiles: [students[37], students[36]],
     },
   ];
 
