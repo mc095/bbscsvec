@@ -24,7 +24,6 @@ import umaimg from "@/app/[locale]/about/team/sahithi.jpg";
 import syamalaimg from "@/app/[locale]/about/team/shyamalamani.jpg";
 import pallavisatyaimg from "@/app/[locale]/about/team/pallavisatya.jpg";
 import ramyasreeimg from "@/app/[locale]/about/team/ramyasree.jpg";
-import krishnasai from "@/app/[locale]/about/team/krishnasai.jpg";
 import prasadimg from "@/app/[locale]/about/team/varaprasad.jpg";
 import hariimg from "@/app/[locale]/about/team/haricharan.jpg";
 import saiimg from "@/app/[locale]/about/team/sai.jpg";
@@ -201,13 +200,6 @@ export default function StudentProfiles({
       github: "https://github.com/ramyasreelanka5",
       linkedin: "https://www.linkedin.com/in/ramya-sree-lanka/",
       avatarUrl: ramyasreeimg.src, 
-    },
-    {
-      name: "Krishna Sai",
-      role: "Subordinate",
-      github: "https://github.com/VelagalaSatyaSivaNagaKrishnaSai",
-      linkedin: "https://www.linkedin.com/in/satya-siva-naga-krishna-sai-velagala",
-      avatarUrl: krishnasai.src, 
     },
     {
       name: "Vara Prasad",
