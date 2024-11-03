@@ -76,11 +76,11 @@ export default function StudentProfiles({
       avatarUrl: rasmithaimg.src,
     },
     {
-      name: "Ganesh",
+      name: "Supriya",
       role: "Technical Lead",
-      github: "https://github.com/mc095",
-      linkedin: "https://www.linkedin.com/in/ganesh097/",
-      avatarUrl: ganeshimg.src,
+      github: "https://github.com/Supriya-Uchinthala",
+      linkedin: "https://www.linkedin.com/in/supriya-uchinthala/",
+      avatarUrl: supriyaimg.src,
     },
     {
       name: "Vishnu Vardhan",
@@ -90,11 +90,11 @@ export default function StudentProfiles({
       avatarUrl: vishnuimg.src,
     },
     {
-      name: "Supriya",
+      name: "Ganesh",
       role: "Lead",
-      github: "https://github.com/Supriya-Uchinthala",
-      linkedin: "https://www.linkedin.com/in/supriya-uchinthala",
-      avatarUrl: supriyaimg.src,
+      github: "https://github.com/mc095",
+      linkedin: "https://www.linkedin.com/in/ganesh097/",
+      avatarUrl: ganeshimg.src,
     },
     {
       name: "Fathima",
