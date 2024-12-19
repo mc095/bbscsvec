@@ -37,7 +37,7 @@ const social = [
     {
         name: 'Whatsapp',
         icon: 'whatsapp',
-        link: 'https://chat.whatsapp.com/EzYj5HVR7rv38hhWxf9e7u',
+        link: 'https://whatsapp.com/channel/0029Vaqs9XG7T8bcOq8p0X3Z',
     },
     {
         name: 'Instagram',
