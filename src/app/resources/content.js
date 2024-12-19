@@ -81,7 +81,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Read exclusive blogs from our club',
+    title: 'Read exclusive activity blogs from us',
     description: `Read what BBSC has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -89,7 +89,7 @@ const blog = {
 
 const work = {
     label: 'Work',
-    title: 'Our projects',
+    title: 'Our work',
     description: `Design and dev projects by our Team`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
@@ -97,7 +97,7 @@ const work = {
 
 const gallery = {
     label: 'Gallery',
-    title: 'My photo gallery',
+    title: 'Our gallery',
     description: `A photo collection by ${person.name}`,
     // Images from https://pexels.com
     images: [
