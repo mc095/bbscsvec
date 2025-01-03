@@ -129,23 +129,23 @@ export default function Home({
       </Flex>
 
       {/* Sign-up Card Section */}
-      {/* <Flex fillWidth justifyContent="center" marginY="l">
+      <Flex fillWidth justifyContent="center" marginY="l">
         <Card padding="l" border="neutral-medium" style={{ maxWidth: "400px" }}>
           <Heading variant="body-strong-xl" marginBottom="s">
-            Join our core team today!
+            Register for Algo Phoenix Hackathon Today!
           </Heading>
           <Text variant="body-default-l" marginBottom="m">
-            Apply for BBSC Recruitment Today!
+            Hackathon:where code meets creativity
           </Text>
           <Button
             variant="primary"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeP9SU50kGhTAdWSVNVLF_BBTq73PqMTYrXATVQtri4-qaJ6w/viewform"
+            href="https://forms.gle/9AgS4e2zgrtqayUM7"
             target="_blank"
           >
             Sign Up
           </Button>
         </Card>
-      </Flex> */}
+      </Flex>
 
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} locale={locale} />
