@@ -129,7 +129,7 @@ export default function Home({
       </Flex>
 
       {/* Sign-up Card Section */}
-      <Flex fillWidth justifyContent="center" marginY="l">
+      {/* <Flex fillWidth justifyContent="center" marginY="l">
         <Card padding="l" border="neutral-medium" style={{ maxWidth: "400px" }}>
           <Heading variant="body-strong-xl" marginBottom="s">
             Register for Algo Phoenix Hackathon Today!
@@ -145,7 +145,7 @@ export default function Home({
             Sign Up
           </Button>
         </Card>
-      </Flex>
+      </Flex> */}
 
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} locale={locale} />
