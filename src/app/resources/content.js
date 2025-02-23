@@ -49,7 +49,7 @@ const social = [
 const home = {
     label: 'Home',
     title: `BBSC x SVEC`,
-    description: `Official BBSC SVEC website`,
+    description: `We inspire, innovate, and ignite creativity among students through AI`,
     headline: <><span style={{
         background: 'linear-gradient(90deg, #b0b0b0, #d4d4d4, #f0f0f0, #d4d4d4, #b0b0b0)',
         WebkitBackgroundClip: 'text',
