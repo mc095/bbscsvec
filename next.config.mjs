@@ -8,7 +8,6 @@ const withMDX = mdx({
 
 const withNextIntl = createNextIntlPlugin();
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'md', 'mdx', 'en'],
   images: {
@@ -28,7 +27,10 @@ const nextConfig = {
     ],
   },
   experimental: {
-    typedRoutes: true, // Optional, kept from your output
+    typedRoutes: false,
+  },
+  webpack(config) {
+    return config;
   },
 };
 
